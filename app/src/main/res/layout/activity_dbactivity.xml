@@ -11,7 +11,7 @@
         android:id="@+id/createBaza"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Создать базу данных"
+        android:text="@string/sozdatbazu"
         tools:layout_editor_absoluteX="96dp"
         tools:layout_editor_absoluteY="357dp" />
 
@@ -19,7 +19,7 @@
         android:id="@+id/loadBaza"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Загрузить из файла"
+        android:text="@string/zagruzkafile"
         tools:layout_editor_absoluteX="103dp"
         tools:layout_editor_absoluteY="72dp" />
 
@@ -27,7 +27,7 @@
         android:id="@+id/outloadBaza"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Выгрузить в файл"
+        android:text="@string/vygruzkafile"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="152dp" />
 </LinearLayout>
