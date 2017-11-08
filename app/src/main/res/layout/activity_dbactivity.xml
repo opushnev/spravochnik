@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vfk.itotdel.spravochnik.dbactivity">
+
+    <Button
+        android:id="@+id/createBaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать базу данных"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:id="@+id/loadBaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузить из файла"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/outloadBaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выгрузить в файл"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="152dp" />
+</LinearLayout>
