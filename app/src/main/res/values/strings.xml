@@ -3,4 +3,8 @@
     <string name="vygruzkafile">Выгрузить в файл</string>
     <string name="zagruzkafile">Загрузить из файла</string>
     <string name="sozdatbazu">Создать базу данных</string>
+    <string name="searchnomeru">Найти по номеру</string>
+    <string name="searchname">Найти по наименованию</string>
+    <string name="searchbarcode">Найти по штрихкоду</string>
+    <string name="bazadannyh">База данных</string>
 </resources>
