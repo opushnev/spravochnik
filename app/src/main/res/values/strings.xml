@@ -7,4 +7,7 @@
     <string name="searchname">Найти по наименованию</string>
     <string name="searchbarcode">Найти по штрихкоду</string>
     <string name="bazadannyh">База данных</string>
+    <string name="inventarnynomer">Инвентарный номер</string>
+    <string name="naimenovanir">Наименование</string>
+    <string name="readshtrih">Считывание штрихкода</string>
 </resources>

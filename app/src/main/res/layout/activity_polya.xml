@@ -23,8 +23,9 @@
         android:id="@+id/naimenovanie"
         android:layout_width="200dp"
         android:layout_height="36dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
         android:layout_alignEnd="@+id/invnomer"
-        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/invnomer"
         android:background="@android:color/white"
         android:textAlignment="center"
@@ -40,7 +41,7 @@
         android:layout_alignStart="@+id/textView"
         android:layout_below="@+id/textView"
         android:layout_marginTop="11dp"
-        android:text="Инвентарный номер"
+        android:text="@string/inventarnynomer"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textStyle="bold"
@@ -51,10 +52,9 @@
         android:id="@+id/textView"
         android:layout_width="104dp"
         android:layout_height="38dp"
-        android:layout_alignBottom="@+id/editText2"
         android:layout_alignStart="@+id/editText3"
         android:layout_toStartOf="@+id/button"
-        android:text="Наименование"
+        android:text="@string/naimenovanir"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textStyle="bold"
@@ -82,11 +82,9 @@
         android:id="@+id/checkBox3"
         android:layout_width="110dp"
         android:layout_height="38dp"
-        android:layout_alignEnd="@+id/invnomer"
-        android:layout_alignStart="@+id/textView2"
+        android:layout_alignStart="@+id/textView4"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="14dp"
-        android:layout_toStartOf="@+id/checkBox4"
+        android:layout_marginTop="13dp"
         android:background="@android:color/holo_green_light"
         android:foregroundGravity="top|bottom"
         android:text="Этикетка"
@@ -103,6 +101,7 @@
         android:layout_height="100dp"
         android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
         android:elevation="0dp"
         android:ems="10"
         android:gravity="top"
@@ -118,6 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/editText3"
         android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="42dp"
         android:text="Примечание" />
 
     <TextView
@@ -187,4 +187,12 @@
         android:layout_alignBottom="@+id/textView7"
         android:layout_alignStart="@+id/checkBox2"
         android:layout_alignEnd="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignEnd="@+id/checkBox2"
+        android:text="Button" />
 </RelativeLayout>
