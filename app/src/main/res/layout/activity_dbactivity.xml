@@ -30,4 +30,10 @@
         android:text="@string/vygruzkafile"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/spisok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="список" />
 </LinearLayout>
